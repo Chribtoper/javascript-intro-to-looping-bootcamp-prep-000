@@ -9,7 +9,7 @@ console.log(myArray);
 
 function clearArray(){
   let i = myArray.length;
-while (myArray.length >= 0){
+while (i >= 0){
 console.log('countdown ' + i);
 i--;
 }
